@@ -8,8 +8,12 @@
     <title>Shopping</title>
     <script src="https://kit.fontawesome.com/3a7b0a6463.js" crossorigin="anonymous"></script>
     <style>
+        #Table{
+            /* margin-left: 13%; */
+            width: 700px;
+        }
         #Total {
-            ;
+            
             background-color: black;
             color: white;
             font-weight: bolder;
@@ -41,16 +45,16 @@
             width: 100vh;
             height: 5vh;
             font-size: 25px;
-            margin: 15px auto 15px;
+            margin: 10px 233px 50px;
             display: flex;
-            justify-content: right;
-            align-items: center;
-            gap: 30px;
+            justify-content:stretch;
+            align-items:center;
+            gap: 20px;
             padding: 5px;
         }
 
         .payment {
-            padding: 15px 20px;
+            padding: 15px 15px;
             transition: all 0.3s;
         }
 
@@ -71,8 +75,8 @@
             color: white;
             height: 12vh;
             font-size: 50px;
-            padding-left: 20%;
-            padding-top: 20px;
+            padding-left: 50%;
+            padding-top: 10px;
         }
     </style>
 
@@ -81,7 +85,7 @@
 </head>
 
 <body>
-    <table border="0.3" style="width: 930px; height: 250px;">
+    <table id="Table">
 
         <thead>
             <tr>
@@ -100,7 +104,7 @@
 
 
 
-            <tr class="Grey" style="">
+            <tr class="Grey" >
                 <td>154654</td>
                 <td>Notebook</td>
                 <td style="text-align: center;">1</td>
@@ -113,7 +117,7 @@
 
             </tr>
 
-            <tr>
+            <tr class="White">
                 <td>456466</td>
                 <td>Klavye</td>
                 <td style="text-align: center;">2</td>
@@ -185,12 +189,6 @@
         <a class="payment" href="#"><i class="fa-solid fa-cart-shopping"></i>Alışverişe Devam</a>
         <a class="payment" href="#"><i class="fa-regular fa-credit-card"></i> Ödemeye Geç</a>
     </div>
-
-
-
-
-
-
 </body>
 
 </html>
