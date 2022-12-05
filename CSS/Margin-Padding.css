@@ -1,0 +1,14 @@
+/** tüm html margin ve pading'lerini sıfırla */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  background-color: aquamarine;
+}
+.div {
+  background-color: yellow;
+  margin-bottom: 10px;
+  padding: 20px;
+}
