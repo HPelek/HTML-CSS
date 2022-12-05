@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline-Internal</title>
+    <style>
+        img {
+            border: 10px solid blue;
+            width: 500px;
+            border-radius: 50%;
+            border-style: dotted;
+            text-align: justify;
+
+        }
+
+        /* Class'a göre seçim */
+        .img-div {
+            text-align: center;
+        }
+
+
+        #par {
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 30px;
+            color: purple;
+            font-weight: lighter;
+        }
+
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+    <!-- 
+    * Inline CSS, HTML elementlerine style keyword'u ile eklenir.
+   * style kelimesinin ici aslinda CSS alanidir.
+   * Sadece eklenen element icin bir stillendirme gerceklestirir.
+   * Bu sebeple cok pratik bir yontem degildir.
+   * HTML kodlarini kalabaliklastirdigi icin kodun gorunumunu karmasiklastirir. 
+     -->
+    <h1 style="text-align:center; color:red">Using CSS</h1>
+
+    <p style="background-color:lightgreen">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, nesciunt.
+        Rerum temporibus odio voluptas
+        aspernatur sit. Ipsam iusto debitis, pariatur quibusdam reprehenderit voluptates ad, hic illum ducimus,
+        provident a illo.</p>
+    <div class="img-div">
+
+        <img src="https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+            alt="">
+
+        <img src="https://images.unsplash.com/photo-1519852476561-ec618b0183ba?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1156&q=80"
+            alt="">
+    </div>
+
+    <p id="par">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, earum in illo incidunt expedita
+        architecto consequuntur molestiae dolor veniam quasi?</p>
+
+
+
+
+</body>
+
+</html>
