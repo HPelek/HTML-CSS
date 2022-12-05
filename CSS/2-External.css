@@ -1,0 +1,30 @@
+* {
+  /* Universal selector*/
+  background-color: azure;
+}
+
+h1 {
+  color: red;
+}
+/** CURSOR mouse imleci değişiyor */
+li {
+  list-style-type: none;
+  color: blueviolet;
+  cursor: pointer;
+}
+li:hover {
+  color: purple;
+  font-weight: bold;
+  background-color: black;
+}
+
+/** OPACİTY Saydamlık Katsayısı */
+h1:hover {
+  opacity: 0.3;
+}
+.list {
+  border: 2px solid red;
+}
+/* body {
+  background-color: antiquewhite;
+} */
