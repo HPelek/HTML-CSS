@@ -26,8 +26,24 @@ hr {
   margin: 30px 10px;
 }
 
-.nav {
+.nav li {
   list-style-type: none;
-  display: inline-flexbox;
+  display: inline-block;
+  /* text-align: center; */
+  width: 100px;
+  margin-right: 10px;
+  padding-top: 20px;
+  background-color: blueviolet;
+  border-radius: 10px;
+  padding: 10px;
   text-align: center;
+}
+ul {
+  text-align: center;
+}
+.nav li:hover {
+  background-color: brown;
+  cursor: pointer;
+  color: beige;
+  font-weight: 700;
 }
