@@ -25,6 +25,9 @@
 hr {
   margin: 30px 10px;
 }
+h2 {
+  opacity: 50%;
+}
 
 .nav li {
   list-style-type: none;
