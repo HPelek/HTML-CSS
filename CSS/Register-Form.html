@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regirster Page</Form>
+    </title>
+    <link rel="stylesheet" href="Register-Form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <h1>Register Form</h1>
+    <form action="">
+        <div>
+            <label for="FirstName">First Name:</label>
+            <input type="text" name="FirstName" id="FirstName" placeholder="Your First Name" required><br>
+        </div>
+        <div>
+            <label for="SureName">Last Name:</label>
+            <input type="text" name="LastName" id="LastName" placeholder="Your Last Name" required><br>
+        </div>
+        <div>
+            <label for="Email">Email:</label>
+            <input type="email" id="Email" placeholder="Email Address" required>
+        </div>
+        <div>
+            <label for="dob">Date:</label>
+            <input type="date" id="dob" value="2022-01-01" min="2020-01-01" placeholder="Your Bhirtdays" required>
+        </div>
+        <div>
+            <label for="Phone">Phone:</label>
+            <input type="phone" id="Phone" placeholder="Your Phone Number" required>
+        </div>
+        <div>
+            <label for="Address">Address:</label>
+            <textarea name="Address" id="Address" placeholder="Your Address" cols="20" rows="5"></textarea>
+        </div>
+
+        <div>
+            <label for="Country">Country:</label>
+            <select name="Country" id="Country">
+                <option value="Turkey">Turkey</option>
+                <option value="Ireland">Ireland</option>
+                <option value="USA">USA</option>
+            </select>
+        </div>
+        <div>
+            <label for="Gender">Gender:</label>
+            <div class="Gender">
+                <input type="radio" name="Gender" id="Male">
+                <label for="Male">Male</label>
+                <input type="radio" name="Gender" id="Female">
+                <label for="Female">Female</label>
+            </div>
+        </div>
+
+        <div>
+            <input type="submit" value="Save" class="button">
+            <input type="reset" value="Clear" class="button">
+
+
+        </div>
+    </form>
+</body>
+
+</html>
