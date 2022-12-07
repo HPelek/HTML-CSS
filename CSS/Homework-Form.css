@@ -18,7 +18,7 @@ form {
   background-color: #45433c;
   background-image: linear-gradient(132deg, #45433c 0%, #1677a0 100%);
   box-shadow: #45433c;
-
+  display: inline-block;
   text-align: center;
   padding: 20px;
 }
