@@ -7,9 +7,27 @@
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+  background-image: url(https://images.unsplash.com/photo-1568952433726-3896e3881c65?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+  background-size: cover;
+  height: max-content;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px 0;
+  color: #4196d0;
+  font-size: 50px;
 }
 form {
-  background-color: aliceblue;
+  background-color: #4196d0;
+  background-image: linear-gradient(
+    43deg,
+    #4196d0 0%,
+    #9850c8 46%,
+    #ffed70 100%
+  );
+
   width: fit-content;
   margin: 20px auto;
   padding: 50px;
@@ -23,4 +41,33 @@ label {
 }
 .Gender label {
   width: auto;
+}
+.inputs {
+  border-radius: 5px;
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+.Radio {
+  margin-bottom: 20px;
+  margin-left: 7px;
+}
+.button {
+  text-align: center;
+}
+.button input {
+  width: 100px;
+  border-radius: 20px;
+  /* display: inline-block; */
+  background-color: hsl(250, 100%, 30%);
+  color: bisque;
+  padding: 5px;
+}
+.button input:hover {
+  background-color: rgba(100, 100, 100, 0.5);
+  cursor: pointer;
+}
+.textarea-div * {
+  vertical-align: middle;
 }

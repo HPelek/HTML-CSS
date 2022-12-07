@@ -15,36 +15,38 @@
 </head>
 
 <body>
-    <h1>Register Form</h1>
+    <h1>REGISTER FORM </h1>
     <form action="">
         <div>
             <label for="FirstName">First Name:</label>
-            <input type="text" name="FirstName" id="FirstName" placeholder="Your First Name" required><br>
+            <input class="inputs" type="text" name="FirstName" id="FirstName" placeholder="Your First Name" required>
         </div>
         <div>
             <label for="SureName">Last Name:</label>
-            <input type="text" name="LastName" id="LastName" placeholder="Your Last Name" required><br>
+            <input class="inputs" type=" text" name="LastName" id="LastName" placeholder="Your Last Name" required>
         </div>
         <div>
             <label for="Email">Email:</label>
-            <input type="email" id="Email" placeholder="Email Address" required>
+            <input class="inputs" type=" email" id="Email" placeholder="Email Address" required>
         </div>
         <div>
             <label for="dob">Date:</label>
-            <input type="date" id="dob" value="2022-01-01" min="2020-01-01" placeholder="Your Bhirtdays" required>
+            <input class="inputs" type="date" id="dob" value="2022-01-01" min="2020-01-01" placeholder="Your Bhirtdays"
+                required>
         </div>
         <div>
             <label for="Phone">Phone:</label>
-            <input type="phone" id="Phone" placeholder="Your Phone Number" required>
+            <input class="inputs" type=" phone" id="Phone" placeholder="Your Phone Number" required>
         </div>
-        <div>
+        <div class="textarea-div">
             <label for="Address">Address:</label>
-            <textarea name="Address" id="Address" placeholder="Your Address" cols="20" rows="5"></textarea>
+            <textarea class="inputs" name=" Address" id="Address" placeholder="Your Address" cols="20"
+                rows="5"></textarea>
         </div>
 
         <div>
             <label for="Country">Country:</label>
-            <select name="Country" id="Country">
+            <select class="inputs" name=" Country" id="Country">
                 <option value="Turkey">Turkey</option>
                 <option value="Ireland">Ireland</option>
                 <option value="USA">USA</option>
@@ -53,16 +55,16 @@
         <div>
             <label for="Gender">Gender:</label>
             <div class="Gender">
-                <input type="radio" name="Gender" id="Male">
+                <input type="radio" name="Gender" id="Male" class="Radio">
                 <label for="Male">Male</label>
-                <input type="radio" name="Gender" id="Female">
+                <input type="radio" name="Gender" id="Female" class="Radio">
                 <label for="Female">Female</label>
             </div>
         </div>
 
-        <div>
-            <input type="submit" value="Save" class="button">
-            <input type="reset" value="Clear" class="button">
+        <div class="button">
+            <input type="submit" value="Save">
+            <input type="reset" value="Clear">
 
 
         </div>
