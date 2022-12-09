@@ -46,7 +46,7 @@ console.log(cohort); //?Undefined (tanımsız) Type yok anlamına geliyor.
 cohort = 3;
 console.log(typeof cohort);
 
-let num1 = 5;
+let num1 = 5; //* Global alanda tanımlanmış değişkenler
 let num2 = 3;
 let result = num1 + num2;
 console.log(++result);
@@ -63,6 +63,7 @@ var x = 11;
 console.log(x);
 {
   //! Burasi local bir alandır.
+  //* Local alanda tanımlanmış değişkenler.
   let a = 3;
   const b = 7;
   console.log(a, b);
@@ -75,3 +76,28 @@ console.log(x);
   console.log(c);
 }
 console.log(c);
+
+//? Her hangi bir bloğun dışı global alandir
+var varNumber = 1; //*Global degiskenler
+let letNumber = 2;
+
+{
+  varNumber = 11; //* Global degiskenlere veri yaziyoruz
+  letNumber = 22;
+}
+//* Global degiskenleri okuyoruz.
+console.log(varNumber, letNumber);
+
+console.log("**********************");
+
+//*Global degiskenler
+var varNumber1 = 3;
+let letNumber1 = 4;
+{
+  var varNumber1 = 33;
+  let letNumber1 = 44; //! yeni bir local degisken olsuturduk
+  console.log(letNumber1); //! local degiskeni okuduk
+}
+
+//* Global degiskenleri okuyoruz
+console.log(varNumber1, letNumber1);
