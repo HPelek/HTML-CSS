@@ -9,6 +9,7 @@ body {
 }
 .conheader {
   text-align: center;
+  display: block;
 }
 .conheader span {
   color: red;
@@ -18,40 +19,53 @@ body {
 }
 
 .coninform {
-  margin: 0 50px;
+  margin: 10px 470px;
+  padding: 10px 40px;
   background-color: rgba(0, 0, 0, 0.3);
   width: fit-content;
-  /* padding: 10px; */
+  /* display: block; */
 }
 .conform {
-  margin: 0 490px 0 490px;
-  padding: 0px 20px;
-  background-color: rgba(0, 0, 0, 0.8);
+  padding: 10px 30px;
+  background-color: black;
   display: block;
+  /* width: fit-content; */
 }
 
 .conform input {
-  width: 200px;
+  width: 250px;
   height: 30px;
   border-style: double;
 }
 .conselect {
-  margin: 0 490px 0 490px;
-  padding: 0px 20px;
-  background-color: rgba(0, 0, 0, 0.8);
+  padding: 5px 30px;
+  background-color: black;
+  display: block;
+  /* width: fit-content; */
 }
 .conselect select {
-  width: 200px;
+  width: 250px;
   height: 30px;
   border-style: double;
 }
 .conpart {
-  margin: 0 490px 0 490px;
-  padding: 0px 20px;
-  background-color: rgba(0, 0, 0, 0.8);
+  padding: 5px 30px;
+  background-color: black;
+  display: block;
+  /* width: fit-content; */
 }
 .confeed {
-  margin: 0 490px 0 490px;
-  padding: 0px 20px;
-  background-color: rgba(0, 0, 0, 0.8);
+  padding: 5px 30px;
+  background-color: black;
+  display: block;
+}
+.button {
+  /* display: block; */
+  width: 100px;
+  height: 30px;
+  margin: 0 60px;
+  padding: 0 20px;
+  background-color: red;
+  border: 1px;
+  border-radius: 10px;
 }
