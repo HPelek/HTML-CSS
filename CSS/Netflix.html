@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Form</title>
+    <link rel="stylesheet" href="Netflix.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Sorts+Mill+Goudy:ital@1&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <h1 class="conheader">NET<span>FLIX</span></h1>
+            <p class="condes">Thank you for singning up at Netflix. Tell us more about your self</p>
+        </div>
+        <div class="coninform">
+            <div class=" conform">
+                <form action=""></form>
+                <label for="Neme">Name</label>
+                <br>
+                <input type="text" Name="Name" id="Name" placeholder="Enter your name" required>
+                <br>
+                <label for="Age">Age</label>
+                <br>
+                <input type="number" id="Age" min="18" placeholder="Age" required>
+                <br>
+                <label for="">Email</label>
+                <br>
+                <input type="email" id="Email" placeholder="Enter your Email" required>
+                <br>
+            </div>
+
+            <div class="conselect">
+                <label for="Content">Content Type</label>
+                <br>
+                <select name="Content Type" id="Content">
+                    <option value="Series">Series</option>
+                    <option value="Movie">Movie</option>
+                    <option value="Documantery">Documantery</option>
+                </select>
+            </div>
+
+            <div class="conpart"><br>
+                <label for="Movie">Movie Type</label><br>
+                <input type="checkbox" name="Comedy" id="Comedy">
+                <label for="comedy">Comedy</label><br>
+                <input type="checkbox" name="Action" id="action">
+                <label for="comedy">Action</label><br>
+                <input type="checkbox" name="Romance" id="Romance">
+                <label for="comedy">Romance</label>
+            </div>
+
+            <div class="conpart"><br>
+                <label for="Gender">Gender</label><br>
+                <input type="radio" name="Gender" id="male">
+                <label for="male">Male</label><br>
+                <input type="radio" name="Gender" id="female">
+                <label for="female">Female</label><br>
+                <input type="radio" name="Gender" id="other">
+                <label for="other">other</label>
+            </div>
+
+            <div class="confeed"><br>
+                <label for="FeedBack">Feed Back</label><br>
+                <textarea name="FeedBack" id="FeedBack" placeholder="Any comment" cols="30" rows="5"></textarea>
+                <input type="submit" type="button">
+            </div>
+            <!-- <div class="conbutton"><br>
+                <!-- <input type="submit" type="button"> -->
+        </div> -->
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

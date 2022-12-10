@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("background.jpg");
+  color: white;
+}
+.conheader {
+  text-align: center;
+}
+.conheader span {
+  color: red;
+}
+.condes {
+  text-align: center;
+}
+
+.coninform {
+  margin: 0 50px;
+  background-color: rgba(0, 0, 0, 0.3);
+  width: fit-content;
+  /* padding: 10px; */
+}
+.conform {
+  margin: 0 490px 0 490px;
+  padding: 0px 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: block;
+}
+
+.conform input {
+  width: 200px;
+  height: 30px;
+  border-style: double;
+}
+.conselect {
+  margin: 0 490px 0 490px;
+  padding: 0px 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.conselect select {
+  width: 200px;
+  height: 30px;
+  border-style: double;
+}
+.conpart {
+  margin: 0 490px 0 490px;
+  padding: 0px 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.confeed {
+  margin: 0 490px 0 490px;
+  padding: 0px 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
