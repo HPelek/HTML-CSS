@@ -104,3 +104,74 @@ const num4 = "1";
 console.log(num1 > num3);
 console.log(num1 <= num3);
 console.log(num2 > num4);
+
+// * ================================================
+// *            MANTIKSAL OPERATORLER
+// * ================================================
+
+const v1 = true;
+const v2 = false;
+
+console.log(v1 && v2); //? false
+console.log(v1 || v2); //? true
+
+console.log(!v1); //?false
+
+//? Ornek:
+// const age = prompt("Please enter your age:");
+// const healty = confirm("are you healty?");
+// console.log(age, healty);
+
+// if (age >= 18 && healty == true) {
+//   console.log("Ehliyet alabilir");
+// } else {
+//   console.log("ehliyet alamaz");
+// }
+
+const nal = null;
+const tanimsiz = undefined;
+const bos = "";
+const sayiDegil = NaN;
+const sifir = 0;
+const falsy = false;
+console.log(Boolean(0)); //? False
+console.log(Boolean(5)); //? True
+console.log(Boolean(-5)); //? True
+console.log(Boolean(12.4)); //? True
+console.log(Boolean(0)); //? True
+
+console.log(v1 && null); //? null
+console.log(v1 && false && true && true); //? False
+console.log(v1 && 0); //? 0
+console.log(v1 || 0); //? true
+
+const num5 = 0;
+if (num5 === true) {
+  console.log("Sayi sifir degildir");
+} else {
+  console.log("Sayi sifirdir");
+}
+
+// * ================================================
+// *            TIP DONUSUMLERI
+// * ================================================
+
+const dolar = "1000";
+const tl = "500";
+
+const totalMoney = Number(dolar) + Number(tl);
+const totalMoney2 = parseInt(dolar) + parseInt(tl);
+const totalMoney3 = parseFloat(dolar) + parseFloat(tl);
+const totalMoney4 = +dolar + +tl;
+console.log(totalMoney);
+console.log(totalMoney2);
+console.log(totalMoney3);
+console.log(totalMoney4);
+
+console.log(Number(null)); //? 0
+console.log(Number("")); //? 0
+console.log(Number("12.3")); //? 12.3
+console.log(String(55)); //? String
+console.log(Number("1ab")); //? NaN
+console.log(Number("0b101")); //? 5 (Binary Sayı sisteemi)
+console.log(Number("0x10")); //? 16 (Hex Sayı sistemi)
