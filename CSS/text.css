@@ -1,0 +1,51 @@
+html {
+  /*? Default font-size 16px */
+  /* font-size: 20px; */
+
+  /** default fontsize=20px*/
+}
+
+h1 {
+  /*? Degistirilmedigi surece h1'in buyuklugu default font-size'ın 2 katidir. 16x2 = 32px*/
+  color: red;
+}
+p.firstp {
+  /*? p'nin size default font-size a eşittir.; */
+  font-size: 30px;
+}
+p.abs {
+  font-size: 20px;
+  font-size: 1cm;
+}
+p.percent {
+  font-size: 200%; /*? 16px * 2 */
+}
+.div1 {
+  font-size: 1em;
+}
+.div2 {
+  font-size: 2em; /*? div1 parentın font-size * 2 */
+}
+.div3 {
+  font-size: 3em; /*? div2 parentın font-size * 3 */
+}
+.div4 {
+  font-size: 1rem;
+}
+.div5 {
+  font-size: 2rem;
+}
+.div6 {
+  font-size: 3rem;
+}
+p.textstyle {
+  font-style: italic;
+  font-weight: 900;
+  /* font-weight: bold;
+  font-weight: bolder; */
+  font-variant: small-caps;
+}
+p.textstyle .elit {
+  color: blueviolet;
+  text-decoration: line-through;
+}
