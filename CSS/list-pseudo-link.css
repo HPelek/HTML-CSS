@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  /* padding: 0; */
+}
+
+.language {
+  list-style-type: circle;
+
+  list-style-position: inside;
+  /* list-style-image: linear-gradient(to left bottom, s red, blue); */
+  list-style-image: url(../../HTML-CSS-JS/IMG/house-solid.svg);
+}
+.awesome {
+  color: blueviolet;
+  font-size: 2rem;
+}
+
+ul.pseudo li {
+  list-style-type: none;
+  background-color: aliceblue;
+  border: 1px solid black;
+  width: 20rem;
+  font-size: 2rem;
+}
+ul.pseudo li:first-child {
+  color: blueviolet;
+}
+ul.pseudo li:nth-child(even) {
+  color: green;
+}
+
+ul.pseudo li:last-child {
+  color: royalblue;
+}
+ul.pseudo li:nth-child(4) {
+  color: red;
+}
+ul.pseudo li:hover {
+  cursor: pointer;
+  opacity: 0.4;
+}
+ul.pseudo li:active {
+  font-weight: 800;
+}
+
+ul.pseudo li::before {
+  content: "👌";
+}
+ul.pseudo li::after {
+  content: "👍";
+}
+
+ul.pseudo li:last-child::before {
+  font-family: "Font Awesome 6 Free";
+  font-weight: 700;
+  content: "\f81d";
+}
+
+.ps-element {
+}

@@ -1,0 +1,35 @@
+// * =======================================================
+// *             FOR LOOP
+// * =======================================================
+
+console.log(" **** FOR ****");
+
+// const n = Number(prompt("Enter a Number"));
+// let sum = 0;
+// for (let i = 1; i <= n; i++) {
+//   sum = sum + i;
+// }
+// console.log("SUM:", sum);
+
+// const num = Number(prompt("Enter a Number"));
+
+// for (let j = 0; j < num; j++) {
+//   const randomNum = Math.round(Math.random() * 100);
+//   console.log(`${j}. Random Number: ${randomNum}`);
+// }
+
+const asal = Number(prompt("Enter a Number"));
+let asalnum = true;
+if (asal < 2) {
+  console.log(`Number should be bigger than 1`);
+} else {
+  for (let k = 2; k < asal; k++) {
+    if (asal % k === 0) {
+      console.log(`${asal} is is not a prime number`);
+      asalnum = false;
+    }
+  }
+  if (asalnum == true) {
+    console.log(`${asal} is a prime number`);
+  }
+}
