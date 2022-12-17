@@ -35,10 +35,11 @@ console.log(" **** FOR ****");
 //     console.log(`${asal} is a prime number`);
 //   }
 // }
-while (true) {
-  let note = prompt(" Please betwen 1 to 100 enter number:");
-  if (note >= 0 && note <= 100) break;
-  else {
-    alert("Please Try Again:");
-  }
-}
+
+// while (true) {
+//   let note = prompt(" Please betwen 1 to 100 enter number:");
+//   if (note >= 0 && not <= 100) break;
+//   else {
+//     alert("Please Try Again:");
+//   }
+// }
