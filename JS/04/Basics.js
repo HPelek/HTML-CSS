@@ -43,3 +43,11 @@ console.log(" **** FOR ****");
 //     alert("Please Try Again:");
 //   }
 // }
+
+let number = prompt("Lütfen 0 ile 100 arasında bir sayı girin: ");
+
+while (number < 0 || number > 100) {
+  number = prompt("Lütfen 0 ile 100 arasında bir sayı girin: ");
+}
+
+console.log(`Girilen sayı: ${number}`);
