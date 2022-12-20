@@ -21,11 +21,32 @@ while (count <= 10) {
 // }
 // console.log("Your Grade :", grade);
 
-let number = Number(prompt("your number"));
-let counter = 0;
-while (number > 0) {
-  number = Math.floor(number / 10);
-  console.log(number);
-  counter++;
-}
-console.log(`digit count is ${counter}`);
+// let number = Number(prompt("your number"));
+// let counter = 0;
+// while (number > 0) {
+//   number = Math.floor(number / 10);
+//   console.log(number);
+//   counter++;
+// }
+// console.log(`digit count is ${counter}`);
+// * ============================================
+// *         DONGULER(LOOPS)- DO-WHILE
+// * ============================================
+
+//? ORNEK: Kullanicidan  Vize ve Final notlarini isteyen ve
+//? vize'nin %40 + final'in %60 alarak gecme notunu hesaplayan programi
+//? yaziniz. Program her hesaplamadan sonra tekrar hesaplama yapilmak
+//? istenip istenmedigini soracak cevap 'e' veya 'E' ise yeniden not
+//? isteyecek ve islemleri tekrar edecektir.
+
+// let again = "";
+// do {
+//   let avg = "";
+//   let midterm = Number(prompt("your midterm grade"));
+//   let final = Number(prompt("your final grade"));
+//   avg = midterm * 0.4 + final * 0.6;
+//   console.log(`You Score is ${avg}`);
+//   again = prompt("do you want to contunie(e/E)?");
+// } while (again === "e" || again === "E");
+
+// console.log("See you later");
