@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+}
+.img-float {
+  width: 40%;
+  float: left;
+  margin-left: 0.8rem;
+}
+
+.par-float {
+  border: 5px solid red;
+}
+.clear {
+  clear: both;
+}
+/* .main-div {
+  width: 400px;
+} */
+.box {
+  float: left;
+  font-size: 2rem;
+}
+.box1 {
+  background-color: aqua;
+  width: 40%;
+}
+.box2 {
+  background-color: chartreuse;
+  width: 35%;
+}
+.box3 {
+  width: 15%;
+  background-color: aquamarine;
+}
+
+.center {
+  text-align: center;
+}

@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  width: 5rem;
+  height: 5rem;
+}
+.box1 {
+  background-color: aqua;
+  position: relative;
+  top: 2rem;
+  left: 4rem;
+}
+.box2 {
+  background-color: red;
+  position: relative;
+  top: 4rem;
+  left: 4rem;
+}

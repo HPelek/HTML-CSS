@@ -3,18 +3,16 @@
   padding: 0;
   box-sizing: border-box;
 }
-header{
-   text-align: center;
-    padding: 100px;
-    margin: 350px;
-    display: inline-block;
-  
-}
 
 .as {
-  display: block;
+  margin-top: 1rem;
+  float: left;
 }
-.sa {
+
+main {
+  text-align: center;
+
+  margin: 15% 30%;
   display: inline-block;
 }
 .gi {
@@ -22,13 +20,12 @@ header{
   height: 48px;
   width: 290px;
   float: right;
+  margin-top: 1rem;
 }
 .but {
   width: 580px;
 }
-/* .voicelogo {
-  display: inline-block; */
-}
+
 .voice {
   width: 20px;
   height: 20px;
@@ -40,7 +37,6 @@ header{
   height: 20px;
   vertical-align: middle;
   /* border: 5px solid red ; */
- 
 }
 a {
   height: 24px;
@@ -55,8 +51,6 @@ a {
 div.gi button {
   height: 36px;
   width: 96px;
-  /* margin: 0 8px 0 8px;
-  padding: 9px 23px 9px 23px; */
   min-width: 96px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
@@ -74,8 +68,20 @@ div.gi img {
   padding: 4px;
   vertical-align: middle;
 }
+.search {
+  display: inline-block;
+  outline-style: none;
+}
 .bar {
   border-style: none;
+}
+.searchBar {
+  border: 0px solid grey;
+  box-shadow: rgba(0, 0, 0, 0.35) 1px 1px 15px 1px;
+  width: 470px;
+  height: 35px;
+  margin: auto;
+  border-radius: 25px;
 }
 
 .bar:hover {
@@ -113,8 +119,6 @@ div.but button {
   height: 36px;
   width: 160px;
   border: 1px solid#dadce0;
-  /* margin: 1px 4px 11px 4px; */
-  /* padding: 16px 16px; */
   display: inline;
   text-align: center;
   font-size: 14px;
@@ -122,3 +126,64 @@ div.but button {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   border-radius: 10%;
 }
+.count {
+  margin-bottom: 0.5rem;
+}
+.count p {
+  color: grey;
+  font-size: 17px;
+  display: inline-block;
+  font-size: small;
+}
+.lang a {
+  text-decoration: underline;
+  color: navy;
+}
+.lang {
+  margin-top: 1rem;
+  font-size: small;
+}
+
+footer {
+  width: 100%;
+  position: fixed;
+  padding: 10px;
+  bottom: 10px;
+  background-color: #f2f2f2;
+}
+.left {
+  display: inline-block;
+  float: left;
+  font-size: small;
+}
+
+.right {
+  display: inline-block;
+  float: right;
+  font-size: small;
+}
+
+#right a {
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+  color: grey;
+}
+
+#right a:hover {
+  text-decoration: underline;
+}
+
+#left a {
+  padding-right: 10px;
+  text-decoration: none;
+  color: grey;
+}
+
+#left a:hover {
+  text-decoration: underline;
+}
+ hr {
+    margin-bottom: 10px;
+    color: grey;
+    opacity: 0.2;
