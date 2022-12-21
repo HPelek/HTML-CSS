@@ -1,0 +1,12 @@
+.fixed {
+  background-color: red;
+  padding: 20px;
+  position: fixed;
+  opacity: 0.9;
+}
+.sticky {
+  background-color: orange;
+  padding: 10px;
+  position: sticky;
+  top: 1rem;
+}
