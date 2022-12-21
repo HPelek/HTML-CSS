@@ -1,0 +1,21 @@
+.box {
+  border: 1px solid royalblue;
+  margin-bottom: 2rem;
+  width: 25rem;
+  height: 8rem;
+}
+.box1 {
+  background-color: antiquewhite;
+  overflow: visible;
+}
+
+.box2 {
+  overflow: hidden;
+}
+
+.box3 {
+  overflow: scroll;
+}
+.box4 {
+  overflow: auto;
+}
