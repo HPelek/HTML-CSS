@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Prosto+One&family=Roboto:wght@300;400;700&family=Sevillana&display=swap");
+
+:root {
+  /**colors*/
+  --white: #fff;
+  --black: #222;
+  --magenta: magenta;
+  --green-dark: hsla(168, 66%, 22%, 1);
+  --green: hsla(115, 34%, 37%, 1);
+  --green-light: hsla(75, 51%, 60%, 1);
+  --yellow: hsla(52, 100%, 40%, 1);
+  --orange: hsla(11, 100%, 70%, 1);
+
+  /** Font Family */
+  --ff-prosto: "Prosto One", cursive;
+  --ff-roboto: "Roboto", sans-serif;
+  --ff-sevillana: "Roboto", sans-serif;
+  --ff-pt: "PT Sans Narrow", sans-serif;
+  --ff-yeon: "Yeon Sung", cursive;
+
+  /** Font Size */
+  --fs-3x1: 3rem;
+  --fs-2x1: 2rem;
+  --fs-x1: 1.8rem;
+  --fs-lg: 1.4rem;
+  --fs-md: 1rem;
+  --fs-sm: 0.8rem;
+  --fs-xs: 0.6rem;
+
+  /** Shadows */
+  --Shadow-dark: 0 0 10px rgba(0, 0, 0, 0.4);
+  --Shadow-light: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+  font-family: var(--ff-prosto);
+  color: var(--orange);
+  font-size: var(--fs-3x1);
+}
+
+p {
+  font-size: var(--fs-sm);
+  font-family: var(--ff-sevillana);
+}
+
+.dark {
+  padding: 3rem;
+  background-color: var(--yellow);
+  box-shadow: var(--Shadow-dark);
+  margin-bottom: 2rem;
+}
+
+.light {
+  padding: 3rem;
+  background-color: var(--green);
+  box-shadow: var(--Shadow-light);
+  font-family: var(--ff-pt);
+}
