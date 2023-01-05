@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: grid;
+  grid-template-columns: 300px 4rem 400px;
+  grid-template-rows: 50vh 25vh 25vh;
+  justify-content: center; /*! grid seviyesinde hizlama*/
+}
+.content {
+  background-color: lightblue;
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content7 {
+  overflow: auto;
+}
+
+.content9 {
+  background-image: url("https://cdn.pixabay.com/photo/2022/11/15/04/54/automotive-7593064__340.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
