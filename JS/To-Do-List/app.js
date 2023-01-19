@@ -74,7 +74,9 @@ const createTodo = (newTodo) => {
   // console.log(li);
 
   //? append li to ul
-  todoUl.append(li);
+  //? prepend VS append farkı
+  // todoUl.append(li);
+  todoUl.prepend(li);
 };
 
 //? Capturing vs. Bubbling
@@ -85,19 +87,27 @@ todoUl.addEventListener("cilck", (e) => {
   if (e.target.classList.contains("fa-check")) {
     // alert("check clicked");
     //? update UI
-    e.target.parentElement.contains.toggle("checked");
+    e.target.parentElement.classList.toggle("checked");
     //? update array
     todoList.map((todo) => {
       if (todo.id == idAttr) {
         todo.completed = !todo.completed;
       }
     });
+
+    // todoList.forEach((todo) => {
+    //   if (todo.id == idAttr) {
+    //     todo.completed = !todo.completed;
+    //   }
+    // });
+
     //? add updated array to localStorage
     localStorage.setItem("todoList", JSON.stringify(todoList));
   } else if (e.target.classList.contains("fa-trash")) {
     // alert("remove clicked");
-    //? Remove from array
+    //? remove from UI
     e.target.parentElement.remove();
+    //? Remove from array
     //? id si ile silinmeyenleri filtrele array i update et ==> silineni arraydan remove
     todoList = todoList.filter((todo) => todo.id != idAttr);
     //? add updated array to localstorage
